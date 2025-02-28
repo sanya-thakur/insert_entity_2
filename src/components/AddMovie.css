@@ -1,0 +1,29 @@
+.add-movie-container {
+    text-align: center;
+    position: relative;
+  }
+.add-movie-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+  }
+
+.form-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+.cancel-button, .submit-button {
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+.submit-button {
+    background-color: green;
+  }
